@@ -1,0 +1,10 @@
+form .ketQua{
+    padding: 9px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+#result{
+    display: none;
+}
