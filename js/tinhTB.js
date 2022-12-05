@@ -15,8 +15,8 @@ function tinhTrungBinh() {
         // parseInt : chỉ dùng cho số nguyên
 
     var trungBinh = (Number(num1) + Number(num2) + Number(num3) + Number(num4) + Number(num5)) / 5;
-    document.getElementById("result").style.display = "block";
-    document.getElementById("result").innerHTML = trungBinh;
+    document.getElementById("result2").style.display = "block";
+    document.getElementById("result2").innerHTML = "Số trung bình là: " + trungBinh;
 }
 
 document.getElementById("btnTrungBinh").onclick = tinhTrungBinh;
